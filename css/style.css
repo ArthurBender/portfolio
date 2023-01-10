@@ -10,7 +10,7 @@
 }
 
 #cover-image {
-    padding: 40px 20px;
+    padding: 80px 20px;
     background-image: url("../assets/cover-image.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -36,4 +36,41 @@
 
 #about-curriculum {
     margin: 100px 0px;
+}
+
+#projects-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.project-holder {
+    margin-bottom: 100px;
+}
+
+.project-image {
+    width: 80%;
+    height: 200px;
+    line-height: 200px;
+    border: 2px solid black;
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+.project-image > .btn {
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.project-image > .btn:hover {
+    background-color: #444;
+}
+
+.project-image:hover > .btn {
+    opacity: 1;
+}
+
+.project-name {
+    font-size: 22px;
+    font-weight: bold;
 }

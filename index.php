@@ -56,10 +56,66 @@
                         tanto na parte de frontend quanto backend, com foco na interação com os usuários.
                     </p>
 
-                    <div class="links-row">
+                    <div id="links-row">
                         <button class="btn btn-primary">Linkedin</button>
                         <button class="btn btn-dark">Github</button>
+                        <button class="btn btn-danger">Gmail</button>
                     </div>
+                </div>
+            </div>
+
+            <!-- PROJECTS -->
+            <div class="container" id="projects-section">
+                <div class="row">
+
+                    <div class="col-6">
+                        <div class="project-holder">
+                            <div class="project-image">
+                                <button class="btn btn-outline-secondary">Acessar</button>
+                                <button class="btn btn-outline-secondary">Repositório</button>
+                            </div>
+                            <div class="project-name">
+                                PROJETO 1
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="project-holder">
+                            <div class="project-image">
+                                <button class="btn btn-outline-secondary">Acessar</button>
+                                <button class="btn btn-outline-secondary">Repositório</button>
+                            </div>
+                            <div class="project-name">
+                                PROJETO 1
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="project-holder">
+                            <div class="project-image">
+                                <button class="btn btn-outline-secondary">Acessar</button>
+                                <button class="btn btn-outline-secondary">Repositório</button>
+                            </div>
+                            <div class="project-name">
+                                PROJETO 1
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="project-holder">
+                            <div class="project-image">
+                                <button class="btn btn-outline-secondary">Acessar</button>
+                                <button class="btn btn-outline-secondary">Repositório</button>
+                            </div>
+                            <div class="project-name">
+                                PROJETO 1
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </main>
