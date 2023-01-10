@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+
+    #navbar-language, .navbar-brand {
+        width: 265px;
+    }
+}
+
+#about-section {
+    text-align: center;
+}
+
+#cover-image {
+    padding: 40px 20px;
+    background-image: url("../assets/cover-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#about-name {
+    font-size: calc(25px + 8vw);
+}
+
+#about-profession {
+    font-size: calc(18px + 3vw);
+}
+
+#about-text {
+    max-width: 800px;
+    font-size: calc(12px + 0.5vw);
+}
+
+#about-name, #about-text, #about-profession {
+    color: white;
+}
+
+#about-curriculum {
+    margin: 100px 0px;
+}
