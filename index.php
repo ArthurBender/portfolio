@@ -1,3 +1,7 @@
+<?php
+    session_set_cookie_params(604800);
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -15,19 +19,35 @@
         <title>Arthur Bender - Portfolio</title>
     </head>
     <body>
+        <?php
+
+            $lang = "pt-BR";
+
+            if ($_GET['lang'] == 'pt-BR' || $_GET['lang'] == 'en') {
+                $_SESSION['lang'] = $_GET['lang'];
+            }
+
+            if(isset($_SESSION['lang'])) {
+                $lang = $_SESSION['lang'];
+            }
+
+	        require_once("translations/".$lang.".php");
+
+        ?>
+
         <!-- NAVBAR -->
         <div class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-            <a class="navbar-brand" href="#">Arthur Bender</a>
+            <a class="navbar-brand" href="index.php">Arthur Bender</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsed-content" aria-controls="navbar-collapsed-content" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-collapsed-content">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-section">Sobre</a>
+                        <a class="nav-link" href="#about-section"><?php echo $translate['ABOUT'] ?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#projects-section">Projetos</a>
+                        <a class="nav-link" href="#projects-section"><?php echo $translate['PROJECTS'] ?></a>
                     </li>
                 </ul>
 
@@ -36,8 +56,8 @@
                         Idioma / Language
                     </span>
                     <select class="custom-select" name="language-select" id="language-select">
-                        <option value="portuguese">Português</option>
-                        <option value="english">English</option>
+                        <option value="pt-BR" <?php if ($lang == "pt-BR") {echo 'selected';} ?>>🇧🇷 Português</option>
+                        <option value="en" <?php if ($lang == "en") {echo 'selected';} ?>>🇺🇸 English</option>
                     </select>
                 </form>
             </div>
@@ -49,15 +69,14 @@
                 <div id="cover-image">
                     <div id="cover-gradient">
                         <h1 id="about-name">Arthur Bender</h1>
-                        <h4 id="about-profession">Desenvolvedor Full-Stack</h4>
+                        <h4 id="about-profession"><?php echo $translate['PROFESSION'] ?></h4>
     
-                        <a href="assets/curriculo.pdf" target="_blank" class="btn btn-lg btn-light" id="about-curriculum"><i class="fa-solid fa-download"></i> Currículo</a>
+                        <a href="assets/<?php echo $translate['CURRICULUM_FILE'] ?>" target="_blank" class="btn btn-lg btn-light" id="about-curriculum">
+                            <i class="fa-solid fa-download"></i> <?php echo $translate['CURRICULUM'] ?>
+                        </a>
     
                         <p class="mx-auto" id="about-text">
-                            Sou um desenvolvedor full-stack formado com mais de 5 anos de experiência na área, 
-                            apaixonado por tecnologia e desenvolvimento. Gosto muito de aprender e sou uma pessoa animada e positiva, 
-                            facilitando o trabalho em equipe. Nos últimos anos, desenvolvi principalmente projetos utilizando Ruby on Rails, 
-                            tanto na parte de frontend quanto backend, com foco na interação com os usuários.
+                            <?php echo $translate['TEXT'] ?>
                         </p>
     
                         <div id="links-row">

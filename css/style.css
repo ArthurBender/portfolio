@@ -15,7 +15,7 @@ html * {
 @media (min-width: 768px) {
 
     #navbar-language, .navbar-brand {
-        width: 265px;
+        width: 285px;
     }
 
     .nav-link {
@@ -30,7 +30,7 @@ html * {
 
 @media (min-width: 768px) and (max-width: 1199px) {
     #navbar-language, .navbar-brand {
-        width: 115px;
+        width: 135px;
     }
 
     #language-select-text {
