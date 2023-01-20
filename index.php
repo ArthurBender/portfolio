@@ -80,9 +80,9 @@
                         </p>
     
                         <div id="links-row">
-                            <a href="https://www.linkedin.com/in/arthur-bender/" target="_blank" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
-                            <a href="https://github.com/ArthurBender" target="_blank" class="btn btn-dark"><i class="fa-brands fa-github"></i> Github</a>
-                            <button class="btn btn-danger" id="btn-send-email"><i class="fa-solid fa-envelope"></i> Gmail</button>
+                            <a href="https://www.linkedin.com/in/arthur-bender/" target="_blank" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i> <span class="link-row-btn-texts">Linkedin</span></a>
+                            <a href="https://github.com/ArthurBender" target="_blank" class="btn btn-dark"><i class="fa-brands fa-github"></i> <span class="link-row-btn-texts">Github</span></a>
+                            <button class="btn btn-danger" id="btn-send-email"><i class="fa-solid fa-envelope"></i> <span class="link-row-btn-texts">Gmail</span></button>
                         </div>
                     </div>
                 </div>

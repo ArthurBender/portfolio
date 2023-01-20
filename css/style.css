@@ -12,6 +12,16 @@ html * {
     font-family: 'Lato', sans-serif;
 }
 
+@media (max-width: 767px) {
+    .link-row-btn-texts {
+        display: none;
+    }
+
+    #links-row .btn {
+        margin: 0px !important;
+    }
+}
+
 @media (min-width: 768px) {
 
     #navbar-language, .navbar-brand {
