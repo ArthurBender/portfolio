@@ -42,6 +42,15 @@ html * {
     background-color: #000 !important;
 }
 
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#navbar-collapse-icon {
+    font-size: 25px;
+}
+
 #about-section {
     text-align: center;
 }

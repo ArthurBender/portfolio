@@ -39,7 +39,7 @@
         <div class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
             <a class="navbar-brand" href="index.php">Arthur Bender</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsed-content" aria-controls="navbar-collapsed-content" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-angle-down" id="navbar-collapse-icon"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbar-collapsed-content">
                 <ul class="navbar-nav mx-auto">
