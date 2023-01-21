@@ -16,6 +16,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/font-awesome.min.js"></script>
         <script src="js/script.js"></script>
+        <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon"/>
         <title>Arthur Bender - Portfolio</title>
     </head>
     <body>
