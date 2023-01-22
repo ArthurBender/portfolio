@@ -24,8 +24,10 @@
 
             $lang = "pt-BR";
 
-            if ($_GET['lang'] == 'pt-BR' || $_GET['lang'] == 'en') {
-                $_SESSION['lang'] = $_GET['lang'];
+            if(isset($_GET['lang'])) {
+                if ($_GET['lang'] == 'pt-BR' || $_GET['lang'] == 'en') {
+                    $_SESSION['lang'] = $_GET['lang'];
+                }
             }
 
             if(isset($_SESSION['lang'])) {
