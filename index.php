@@ -96,11 +96,12 @@
                     <div class="col-6">
                         <div class="project-holder">
                             <div class="project-image">
-                                <button class="btn btn-outline-secondary">Acessar</button>
-                                <button class="btn btn-outline-secondary">Repositório</button>
+                                <div class="project-image-filter"></div>
+                                <a href="https://ga.arthurbender.duckdns.org" target="_blank" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> <?php echo $translate['ACCESS'] ?></a>
+                                <a href="https://github.com/ArthurBender/genetic-algorithm" target="_blank" class="btn btn-secondary"><i class="fa-brands fa-github"></i> <?php echo $translate['REPOSITORY'] ?></a>
                             </div>
                             <div class="project-name">
-                                PROJETO 1
+                                <?php echo $translate['GENETIC_ALGORITHM'] ?>
                             </div>
                         </div>
                     </div>
@@ -108,11 +109,12 @@
                     <div class="col-6">
                         <div class="project-holder">
                             <div class="project-image">
-                                <button class="btn btn-outline-secondary">Acessar</button>
-                                <button class="btn btn-outline-secondary">Repositório</button>
+                                <div class="project-image-filter"></div>
+                                <a href="#" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> <?php echo $translate['ACCESS'] ?></a>
+                                <a href="#" class="btn btn-secondary"><i class="fa-brands fa-github"></i> <?php echo $translate['REPOSITORY'] ?></a>
                             </div>
                             <div class="project-name">
-                                PROJETO 1
+                                <?php echo $translate['COMING_SOON'] ?>
                             </div>
                         </div>
                     </div>
@@ -120,11 +122,12 @@
                     <div class="col-6">
                         <div class="project-holder">
                             <div class="project-image">
-                                <button class="btn btn-outline-secondary">Acessar</button>
-                                <button class="btn btn-outline-secondary">Repositório</button>
+                                <div class="project-image-filter"></div>
+                                <a href="#" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> <?php echo $translate['ACCESS'] ?></a>
+                                <a href="#" class="btn btn-secondary"><i class="fa-brands fa-github"></i> <?php echo $translate['REPOSITORY'] ?></a>
                             </div>
                             <div class="project-name">
-                                PROJETO 1
+                                <?php echo $translate['COMING_SOON'] ?>
                             </div>
                         </div>
                     </div>
@@ -132,11 +135,12 @@
                     <div class="col-6">
                         <div class="project-holder">
                             <div class="project-image">
-                                <button class="btn btn-outline-secondary">Acessar</button>
-                                <button class="btn btn-outline-secondary">Repositório</button>
+                                <div class="project-image-filter"></div>
+                                <a href="#" class="btn btn-primary"><i class="fa-solid fa-right-to-bracket"></i> <?php echo $translate['ACCESS'] ?></a>
+                                <a href="#" class="btn btn-secondary"><i class="fa-brands fa-github"></i> <?php echo $translate['REPOSITORY'] ?></a>
                             </div>
                             <div class="project-name">
-                                PROJETO 1
+                                <?php echo $translate['COMING_SOON'] ?>
                             </div>
                         </div>
                     </div>

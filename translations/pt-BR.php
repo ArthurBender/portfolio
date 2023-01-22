@@ -7,4 +7,9 @@
     $translate['TEXT'] = 'Sou um desenvolvedor full-stack formado com mais de 5 anos de experiência na área, apaixonado por tecnologia e desenvolvimento. 
                         Gosto muito de aprender e sou uma pessoa animada e positiva, facilitando o trabalho em equipe. Nos últimos anos, desenvolvi 
                         principalmente projetos utilizando Ruby on Rails, tanto na parte de frontend quanto backend, com foco na interação com os usuários.';
+
+    $translate['COMING_SOON'] = 'EM BREVE';
+    $translate['ACCESS'] = 'Acessar';
+    $translate['REPOSITORY'] = 'Repositório';
+    $translate['GENETIC_ALGORITHM'] = 'ALGORÍTIMO GENÉTICO';
 ?>
